@@ -30,6 +30,8 @@ const Category = ({ params }) => {
           </div>
           <div className={styles.imgContainer}>
             <Image
+              priority={true}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className={styles.img}
               fill={true}
               src={item.image}

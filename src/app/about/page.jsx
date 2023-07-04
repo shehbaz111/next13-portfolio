@@ -14,8 +14,10 @@ const About = () => {
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <Image
+          
           src="/about_image.jpg"
           fill={true}
+          priority={false}
           alt=""
           className={styles.img}
         />
